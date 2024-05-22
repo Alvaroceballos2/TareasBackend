@@ -1,3 +1,4 @@
+import { Categoria } from './categoria.entity';
 export class Product {
   id: number;
 
@@ -6,4 +7,6 @@ export class Product {
   descripcion: string;
 
   precio: number;
+
+  idCategoria: number;
 }
